@@ -22,8 +22,18 @@ int main()
         scanf("%f", &e[i].price);
     }
     
+    // diplay all items
+    for (i=0; i<5; i++)
+    {
+            printf("\n Item ID = %d", e[i].id);
+            printf("\n Name = %s", e[i].name);
+            printf("\n Price = %f", e[i].price);
+            printf("\n");
+    }
+    
     printf("Enter Item Id to search for a product: \n");
     scanf("%d", &n);
+    
     
     for(i=0; i<5; i++)
     {
