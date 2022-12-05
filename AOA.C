@@ -14,9 +14,9 @@ struct prod
     struct prod e[5], temp;
     int i, n;
     
-    printf("######################################################  AOA Project ############################################");
-    printf("--------------------------------------------------------------------Price Check---------------------------------------------\n");
-    printf("\n************************************************Made By Piyush Agarwal****************************************\n");
+    printf("######################################################  AOA Project ############################################\n");
+    printf("\n--------------------------------------------------------Price Check---------------------------------------------\n");
+    printf("\n***************************************************Made By Piyush Agarwal****************************************\n");
     for(i=0; i<5; i++)
     {
         printf("\n Enter %d Item Id, Name and Price \n", i+1);
@@ -28,7 +28,7 @@ struct prod
         scanf("%f", &e[i].price);
     }
     
-    printf("\n choose an option \n 1) Display All Items \n 2) Search an Item \n 3) Sort: Price low to high): ");
+    printf("\n choose an option \n 1) Display All Items \n 2) Search an Item \n 3) Sort: Price low to high: \n 4)Exit \n ");
     scanf("%d", &operation);
     
 
@@ -43,7 +43,7 @@ struct prod
             printf("\n");
         }
         
-        printf("\n choose an option \n 1) Display All Items: \n 2) Search an Item: \n 3) Sort: Price low to high: ");
+        printf("\n choose an option \n 1) Display All Items: \n 2) Search an Item: \n 3) Sort: Price low to high: \n 4)Exit \n ");
         scanf("%d", &operation);
 
         case 2:
@@ -62,7 +62,7 @@ struct prod
                 }
             }
             
-        printf("\n choose an option \n 3) Sort: Cost low to high): ");
+        printf("\n \n choose an option \n 3) Sort: Cost low to high: \n 4)Exit \n ");
         scanf("%d", &operation);
             
         case 3:
