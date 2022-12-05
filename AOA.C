@@ -86,6 +86,8 @@ struct prod
                     printf("\n Price = %f", e[i].price);
                     printf("\n");
             }
+            case 4:
+                exit(1);
                 break;
                 
         // operator doesn't match any case constant +, -, *, /
